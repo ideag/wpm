@@ -1,0 +1,39 @@
+{
+  "core":"4.2.*",
+  "themes":{
+    "org/twentyfifteen":"*",
+    "com/twentyfourteen":"*",
+    "ideag/launch":"*"
+  },
+  "plugins":{
+    "org/akismet":"~2.0.0",
+    "org/query-monitor":"*",
+    "ideag/gust":"0.*"
+  },
+  "site":{
+    "domain":"wp.local.dev",
+    "title":"Test site",
+    "theme":"twentyfourteen",
+    "admin_user":"adminas",
+    "admin_password":"demoadmin15",
+    "admin_email":"dev@arunas.co"
+  },
+  "users":{
+    "demo":{
+      "role":"subscriber",
+      "user_pass":"demo",
+      "user_email":"demo@arunas.co"
+    },
+    "demo2":{
+      "role":"contributor",
+      "user_pass":"demo2",
+      "user_email":"demo2@arunas.co"
+    }
+  },
+  "db":{
+    "name":"wp_local_dev",
+    "user":"wp_local_dev_user",
+    "pass":"mysql_password"
+  },
+  "server":"ngnix"
+}
